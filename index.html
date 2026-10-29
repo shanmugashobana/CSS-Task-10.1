@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Student Registration Form</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<form action="">
+
+   <h1>Student Registration Form</h1>  
+
+   <!--  Name  -->
+   <label for="name">Full Name:</label> <br>
+   <input type="text" id="name" placeholder="Enter your name" required> 
+   <br>
+      
+   <!--Email-->
+   <label for="email">Email:</label>
+   <input type="email" id="email" placeholder="Enter your email" required> 
+   <br> 
+   
+   <!--Password-->
+   <label for="password">Password:</label>
+   <input type="password" id="password" required> 
+   <br> 
+
+   <!--Gender-->
+ 
+   <label>Gender:</label> <br> <br>
+   <label for="male"><input type="radio" name="gender" id="male">Male</label>
+   <label for="female"><input type="radio" name="gender" id="female" required>Female</label> 
+   <br> <br>
+      
+   <!--Skills-->
+   <label>Skills:</label> <br> <br>
+   <label for="html"><input type="checkbox" name="skill" id="html">HTML</label> 
+   <label for="css"><input type="checkbox" name="skill" id="css">CSS</label>
+   <label for="javascript"><input type="checkbox" name="skill" id="javascript">JavaScript</label> 
+   <br> <br>
+
+   <!--DOB-->
+
+   <label for="dob">DOB:</label>
+   <input type="date" required> 
+   <br> 
+
+   <!-- Submit-->
+
+   <button type="submit">Register</button> 
+   <hr> 
+
+   <h2>Submitted Students (Dummy Data)</h2> 
+   
+
+   <!-- Table-->
+
+   <table border="1" cellpadding="8">
+   <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Gender</th>
+      <th>Skills</th>
+      <th>DOB</th>
+   </tr>
+
+   <tr>
+    <td>Alice</td>
+    <td>alice@example.com</td>
+    <td>Female</td>
+    <td>HTML,CSS</td>
+    <td>2002-5-10</td>
+   </tr>
+
+   <tr>
+    <td>Bob</td>
+    <td>bob@example.com</td>
+    <td>Male</td>
+    <td>JavaScript</td>
+    <td>2001-11-22</td>
+   </tr>
+
+</table>
+  
+
+</form>
+</body>
+
+</html>
